@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Cairo&family=Noto+Nastaliq+Urdu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Cairo&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+
+.head {
+    height: 70px;
+    background-color: #101010;
+    margin: -8px;
+    position: fixed;
+    top: 8px;
+    width: 100%;
+    z-index: 999999999999999999999999;
+}
+.headimg{
+    height: 69px;
+}
+nav {
+    position: relative;
+    left: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    text-decoration: none;
+}
+.home{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    left: -83px;
+    font-family: sans-serif;
+    top: -57px;
+    font-size: 38px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.home:hover{
+    color: white;
+    transition:0.5s;
+}
+.home::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:2px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.4s;
+}
+.home:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:2px;
+    height: 3px;
+    background-color: #ff0000;
+transition: 0.4s;
+}
+.about{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -70px;
+    font-family: sans-serif;
+    font-size: 40px;
+    transition: 0.3s;
+    padding: 0 10px;
+}
+.about:hover{
+    color: white;
+    transition: 0.3s;
+}
+.about::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:00;
+    bottom:2px;
+    left: 0;
+    
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+.about:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:2px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+.contact{
+    text-decoration: none;
+    color: #959595;
+    position: relative;
+    top: -57px;
+    left: -61px;
+    font-family: sans-serif;
+    font-size: 36px;
+    transition: 0.3s;
+    padding: 0 10px;
+}
+.contact:hover{
+    color: white;
+}
+.contact::before{
+    content: '';
+    border-radius: 20px;
+    position: absolute;
+    width:0;
+    left: 0;
+    bottom:2px;
+    height: 3px;
+    transition:0.3s;
+    background-color: #ff0000;
+}
+.contact:hover::before{
+    content: '';
+    position: absolute;
+    width:100%;
+    border-radius: 20px;
+    left: 0;
+    bottom:2px;
+    height: 3px;
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+.began{
+    position: relative;
+    top: 70px;
+    width: 414px;
+    margin: -8px;
+}
+.background {
+    position: relative;
+    top: 70px;
+    width: -webkit-fill-available;
+    margin: -8px;
+}
+.name-car{
+    font-family: 'Bevan', cursive;
+    color: white;
+    text-shadow: 0px 0px 22px #1b1615;
+    position: relative;
+    font-size: 50px;
+    bottom: 220px;
+}
+.steakhouse{
+    font-family: 'Noto Serif Khojki', serif;
+    color: white;
+    text-shadow: 0px 0px 22px #1b1615;
+    position: relative;
+    font-size: 50px;
+    bottom: 220px;
+    
+}
+.welcome{
+    font-family: 'Bevan', cursive;
+    color: #181514;
+    text-shadow: 1px 19px 20px #1b1615;
+    position: relative;
+    font-size: 50px;
+    bottom: -33px;
+    left: 64px;
+}
+.menu {
+    border: solid 3px #1b1615;
+    position: relative;
+    top: 130px;
+    width: 150px;
+    left: 14px;
+    border-radius: 13px;
+    transition: 0.4s;
+}
+.menu:hover{
+    box-shadow: 0px 0px 66px 16px grey;
+    transition: 0.4s;
+}
+.Menu{
+    color: #1b1615;
+    text-decoration: none;
+    position: relative;
+    font-size: 37px;
+    font-family: 'Noto Serif Khojki',sans-serif;
+    font-weight: 500;
+    left: 18px;
+    top: 154px;
+}
+.menu-img{
+    position: relative;
+    left: 3.5px;
+    bottom: 49px;
+    border-radius: 8px;
+    width: 142px;
+}
+.à {
+    border: solid 3px #1b1615;
+    position: relative;
+    top: -91px;
+    left: 206px;
+    width: 150px;
+    border-radius: 13px;
+    transition: 0.4s;
+}
+.é{
+    color: #1b1615;
+    text-decoration: none;
+    position: relative;
+    font-size: 37px;
+    font-family: 'Noto Serif Khojki',sans-serif;
+    font-weight: 500;
+    left: 18px;
+    top: 154px;
+}
+.à-img{
+    position: relative;
+    left: 3.5px;
+    bottom: 49px;
+    border-radius: 8px;
+    width: 142px;
+}
+#lang{
+    font-size: 42px;
+}
+#home{
+    font-size: 42px;
+}
+.home-i{
+    width: 42px;
+}
+.à:hover{
+    box-shadow: 0px 0px 66px 16px grey;
+    transition: 0.4s;
+}
+.fast-img {
+    width: -webkit-fill-available;
+    border: 3px solid #101010;
+    border-radius: 14px;
+    box-shadow: 0px 0px 52px;
+}
+.fast{
+font-family: 'Material Symbols Outlined';
+    color: gold;
+    position: absolute;
+    font-size: 23px;
+    z-index: 1000;
+    top: 1270px;
+    left: 160px;
+}
+    
+.min {
+    font-size: 30px;
+    font-family: cairo;
+    line-height: 30px;
+}
+.quality {
+    position: relative;
+    top: 103px;
+}
+.quality-img {
+    width: -webkit-fill-available;
+    border: 3px solid #101010;
+    border-radius: 14px;
+    box-shadow: 0px 0px 52px;
+}
+.quality-name {
+    font-family: 'Material Symbols Outlined';
+    color: #b70000;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 900;
+    top: 81px;
+    z-index: 1000;
+    left: 192px;
+}
+.q-des {
+    position: relative;
+    top: 112px;
+    font-size: 30px;
+    font-family: cairo;
+    line-height: 32px;
+}
+.delicious-img {
+    width: -webkit-fill-available;
+    border: 3px solid #101010;
+    border-radius: 14px;
+    box-shadow: 0px 0px 52px;
+    position: relative;
+    top: 208px;
+}
+.delicious-name {
+    font-family: 'Material Symbols Outlined';
+    color: gold;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 900;
+    top: 2049px;
+    z-index: 1000;
+    left: 31px;
+}
+.delicious-des {
+    position: relative;
+    top: 221px;
+    font-size: 30px;
+    font-family: cairo;
+    line-height: 32px;
+}
+.order-img {
+    width: -webkit-fill-available;
+    border: 3px solid #101010;
+    border-radius: 14px;
+    box-shadow: 0px 0px 52px;
+    position: relative;
+    top: 289px;
+}
+.order-name {
+    font-family: 'Material Symbols Outlined';
+    color: gold;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 900;
+    top: 2641px;
+    z-index: 1000;
+    left: 31px;
+}
+.order-des {
+    position: relative;
+    top: 291px;
+    font-size: 30px;
+    font-family: 'cairo';
+    line-height: 32px;
+}
+.number {
+    font-family: 'Cairo';
+    color: white;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 900;
+    top: 2635px;
+    z-index: 1000;
+    left: 242px;
+    line-height: 24px;
+}
